@@ -260,7 +260,7 @@ public class KeyboardView extends View {
         final Paint paint = mPaint;
 
         if (keyboard.mId.mSubtype.getKeyboardLayoutSet() == "takri"){
-            Typeface takri_font = Typeface.createFromAsset(getContext().getAssets(), "fonts/takri.otf");
+            Typeface takri_font = Typeface.createFromAsset(getContext().getAssets(), "fonts/takrisemibold.otf");
             paint.setTypeface(takri_font);
         } else if (keyboard.mId.mSubtype.getKeyboardLayoutSet() == "gondi_masaram"){
             Typeface masaram_font = Typeface.createFromAsset(getContext().getAssets(), "fonts/masaramgondi.ttf");
