@@ -43,6 +43,8 @@ public final class SubtypeLocaleUtils {
     private static final String LOCALE_HINDI = "hi";
     // New Input Method Takri and Gondi
     private static final String LOCALE_TAKRI_INDIA = "takri_IN";
+    private static final String LOCALE_GONDI_MASARAM_INDIA = "gondi_MASARAM";
+    private static final String LOCALE_GONDI_GUNJALA_INDIA = "gondi_GUNJALA";
 
 
     private static final String[] sSupportedLocales = new String[] {
@@ -50,7 +52,9 @@ public final class SubtypeLocaleUtils {
             LOCALE_ENGLISH_GREAT_BRITAIN,
             LOCALE_ENGLISH_INDIA,
             LOCALE_HINDI,
-            LOCALE_TAKRI_INDIA
+            LOCALE_TAKRI_INDIA,
+            LOCALE_GONDI_MASARAM_INDIA,
+            LOCALE_GONDI_GUNJALA_INDIA
     };
 
     /**
@@ -64,6 +68,8 @@ public final class SubtypeLocaleUtils {
 
     public static final String LAYOUT_HINDI = "hindi";
     public static final String LAYOUT_TAKRI = "takri";
+    public static final String LAYOUT_GONDI_MASARAM = "gondi_masaram";
+    public static final String LAYOUT_GONDI_GUNJALA = "gondi_gunjala";
     public static final String LAYOUT_HINDI_COMPACT = "hindi_compact";
     public static final String LAYOUT_QWERTY = "qwerty";
 
@@ -190,14 +196,26 @@ public final class SubtypeLocaleUtils {
             // considered the default.
             switch (mLocale) {
                 case LOCALE_ENGLISH_INDIA:
+                    addLayout(LAYOUT_QWERTY);
+                    break;
                 case LOCALE_ENGLISH_GREAT_BRITAIN:
+                    addLayout(LAYOUT_QWERTY);
+                    break;
                 case LOCALE_ENGLISH_UNITED_STATES:
+                    addLayout(LAYOUT_QWERTY);
+                    break;
                 case LOCALE_HINDI:
                     addLayout(LAYOUT_HINDI);
                     addLayout(LAYOUT_HINDI_COMPACT, R.string.subtype_compact);
                     break;
                 case LOCALE_TAKRI_INDIA:
                     addLayout(LAYOUT_TAKRI);
+                    break;
+                case LOCALE_GONDI_MASARAM_INDIA:
+                    addLayout(LAYOUT_GONDI_MASARAM);
+                    break;
+                case LOCALE_GONDI_GUNJALA_INDIA:
+                    addLayout(LAYOUT_GONDI_GUNJALA);
                     break;
             }
             return mSubtypes;

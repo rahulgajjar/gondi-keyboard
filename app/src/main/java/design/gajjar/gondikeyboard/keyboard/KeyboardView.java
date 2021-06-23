@@ -262,6 +262,14 @@ public class KeyboardView extends View {
         if (keyboard.mId.mSubtype.getKeyboardLayoutSet() == "takri"){
             Typeface takri_font = Typeface.createFromAsset(getContext().getAssets(), "fonts/takri.otf");
             paint.setTypeface(takri_font);
+        }
+        if (keyboard.mId.mSubtype.getKeyboardLayoutSet() == "gondi_masaram"){
+            Typeface masaram_font = Typeface.createFromAsset(getContext().getAssets(), "fonts/masaramgondi.ttf");
+            paint.setTypeface(masaram_font);
+        }
+        if (keyboard.mId.mSubtype.getKeyboardLayoutSet() == "gondi_gunjala"){
+            Typeface gunjala_font = Typeface.createFromAsset(getContext().getAssets(), "fonts/gunjalagondi.ttf");
+            paint.setTypeface(gunjala_font);
         } else {
             paint.setTypeface(Typeface.DEFAULT);
         }

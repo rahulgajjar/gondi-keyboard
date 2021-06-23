@@ -438,8 +438,11 @@ public final class InputLogic {
 
     private boolean layoutUsesAutoCaps(final String layoutSetName) {
         switch (layoutSetName) {
+            case SubtypeLocaleUtils.LAYOUT_QWERTY:
             case SubtypeLocaleUtils.LAYOUT_HINDI:
             case SubtypeLocaleUtils.LAYOUT_TAKRI:
+            case SubtypeLocaleUtils.LAYOUT_GONDI_MASARAM:
+            case SubtypeLocaleUtils.LAYOUT_GONDI_GUNJALA:
             case SubtypeLocaleUtils.LAYOUT_HINDI_COMPACT:
                 return false;
             default:

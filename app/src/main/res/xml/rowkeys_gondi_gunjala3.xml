@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
+    <switch>
+        <case latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked">
+            <!-- Old style KHA Takri -->
+            <Key latin:keySpec="&#x116B8;" />
+            <!-- Extra letter Takri -->
+            <Key latin:keySpec="&#x11680;" />
+            <!-- U+11698: "ण" DEVANAGARI LETTER NNA -->
+            <Key latin:keySpec="&#x11698;" />
+            <!-- Extra letter Takri -->
+            <Key latin:keySpec="&#x11680;" />
+            <!-- Extra letter Takri -->
+            <Key latin:keySpec="&#x11680;" />
+            <!-- U+116A7: "श" DEVANAGARI LETTER SHA -->
+            <Key latin:keySpec="&#x116A7;" />
+            <!-- U+116B8: "ष" DEVANAGARI LETTER SSA -->
+            <Key latin:keySpec="&#x116B8;" />
+            <!-- Because the font rendering system prior to API version 16 can't automatically
+                 render dotted circle for incomplete combining letter of some scripts, different
+                 set of Key definitions are needed based on the API version. -->
+            <!-- Extra letter Takri -->
+            <Key latin:keySpec="&#x11680;" />
+            <!-- U+11693: "ञ" DEVANAGARI LETTER NYA -->
+            <Key latin:keySpec="&#x11693;" />
+        </case>
+        <default>
+            <!-- Because the font rendering system prior to API version 16 can't automatically
+                 render dotted circle for incomplete combining letter of some scripts, different
+                 set of Key definitions are needed based on the API version. -->
+            <!-- Extra letter Takri -->
+            <Key latin:keySpec="&#x11680;" />
+            <!-- Because the font rendering system prior to API version 16 can't automatically
+                 render dotted circle for incomplete combining letter of some scripts, different
+                 set of Key definitions are needed based on the API version. -->
+            <!-- U+116AB: "ं" DEVANAGARI SIGN ANUSVARA -->
+            <Key latin:keySpec="&#x116AB;" />
+            <!-- U+116A2: "म" DEVANAGARI LETTER MA
+                 U+0950: "ॐ" DEVANAGARI OM -->
+            <Key
+                latin:keySpec="&#x116A2;"
+                latin:moreKeys="&#x0950;" />
+            <!-- U+1169D: "न" DEVANAGARI LETTER NA
+                 U+11693: "ञ" DEVANAGARI LETTER NYA
+                 U+1168E: "ङ" DEVANAGARI LETTER NGA
+                 U+1169D/U+116B7: "ऩ" DEVANAGARI LETTER NA/DEVANAGARI SIGN NUKTA -->
+            <Key
+                latin:keySpec="&#x1169D;"
+                latin:moreKeys="&#x11693;,&#x1168E;,&#x1169D;&#x116B7;" />
+            <!-- U+116A6: "व" DEVANAGARI LETTER VA -->
+            <Key latin:keySpec="&#x116A6;" />
+            <!-- U+116A5: "ल" DEVANAGARI LETTER LA
+                 U+090C: "ऌ" DEVANAGARI LETTER VOCALIC L
+                 U+0961: "ॡ" DEVANAGARI LETTER VOCALIC LL -->
+            <Key
+                latin:keySpec="&#x116A5;" />
+            <!-- U+116A8: "स" DEVANAGARI LETTER SA -->
+            <Key latin:keySpec="&#x116A8;" />
+            <!-- U+116A3: "य" DEVANAGARI LETTER YA
+                 U+095F: "य़" DEVANAGARI LETTER YYA -->
+            <Key
+                latin:keySpec="&#x116A3;" />
+            <!-- Because the font rendering system prior to API version 16 can't automatically
+                 render dotted circle for incomplete combining letter of some scripts, different
+                 set of Key definitions are needed based on the API version. -->
+            <!-- U+116B7: "़" DEVANAGARI SIGN NUKTA -->
+            <Key latin:keySpec="&#x116B7;" />
+        </default>
+    </switch>
+</merge>

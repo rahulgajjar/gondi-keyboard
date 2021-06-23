@@ -605,6 +605,126 @@ public final class KeyboardTextsTable {
         /* keyspec_tablet_period */ "\u0964",
     };
 
+    private static final String[] TEXTS_Gondi_Masaram_IN = {
+            /* morekeys_a ~ */
+            null, null, null, null,
+            /* ~ morekeys_u */
+            // Label for "switch to alphabetic" key.
+            // U+0915: "क" DEVANAGARI LETTER KA
+            // U+0916: "ख" DEVANAGARI LETTER KHA
+            // U+0917: "ग" DEVANAGARI LETTER GA
+            /* keylabel_to_alpha */ "\u11D0C\u11D0D\u11D0E",
+            /* morekeys_i ~ */
+            null, null, null, null, null, null,
+            /* ~ single_quotes */
+            // U+20B9: "₹" INDIAN RUPEE SIGN
+            /* keyspec_currency */ "\u20B9",
+            /* morekeys_y ~ */
+            null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+            null, null, null, null, null,
+            /* ~ morekeys_cyrillic_soft_sign */
+            // U+0967: "१" DEVANAGARI DIGIT ONE
+            /* keyspec_symbols_1 */ "\u0967",
+            // U+0968: "२" DEVANAGARI DIGIT TWO
+            /* keyspec_symbols_2 */ "\u0968",
+            // U+0969: "३" DEVANAGARI DIGIT THREE
+            /* keyspec_symbols_3 */ "\u0969",
+            // U+096A: "४" DEVANAGARI DIGIT FOUR
+            /* keyspec_symbols_4 */ "\u096A",
+            // U+096B: "५" DEVANAGARI DIGIT FIVE
+            /* keyspec_symbols_5 */ "\u096B",
+            // U+096C: "६" DEVANAGARI DIGIT SIX
+            /* keyspec_symbols_6 */ "\u096C",
+            // U+096D: "७" DEVANAGARI DIGIT SEVEN
+            /* keyspec_symbols_7 */ "\u096D",
+            // U+096E: "८" DEVANAGARI DIGIT EIGHT
+            /* keyspec_symbols_8 */ "\u096E",
+            // U+096F: "९" DEVANAGARI DIGIT NINE
+            /* keyspec_symbols_9 */ "\u096F",
+            // U+0966: "०" DEVANAGARI DIGIT ZERO
+            /* keyspec_symbols_0 */ "\u0966",
+            // Label for "switch to symbols" key.
+            /* keylabel_to_symbol */ "?\u0967\u0968\u0969",
+            /* additional_morekeys_symbols_1 */ "1",
+            /* additional_morekeys_symbols_2 */ "2",
+            /* additional_morekeys_symbols_3 */ "3",
+            /* additional_morekeys_symbols_4 */ "4",
+            /* additional_morekeys_symbols_5 */ "5",
+            /* additional_morekeys_symbols_6 */ "6",
+            /* additional_morekeys_symbols_7 */ "7",
+            /* additional_morekeys_symbols_8 */ "8",
+            /* additional_morekeys_symbols_9 */ "9",
+            /* additional_morekeys_symbols_0 */ "0",
+            /* morekeys_tablet_period */ "!autoColumnOrder!8,\\,,.,',#,),(,/,;,@,:,-,\",+,\\%,&",
+            /* morekeys_nordic_row2_11 ~ */
+            null, null, null,
+            /* ~ keyspec_tablet_comma */
+            // U+0964: "।" DEVANAGARI DANDA
+            /* keyspec_period */ "\u0964",
+            /* morekeys_period */ "!autoColumnOrder!9,\\,,.,?,!,#,),(,/,;,',@,:,-,\",+,\\%,&",
+            /* keyspec_tablet_period */ "\u0964",
+    };
+
+    private static final String[] TEXTS_Gondi_Gunjala_IN = {
+            /* morekeys_a ~ */
+            null, null, null, null,
+            /* ~ morekeys_u */
+            // Label for "switch to alphabetic" key.
+            // U+0915: "क" DEVANAGARI LETTER KA
+            // U+0916: "ख" DEVANAGARI LETTER KHA
+            // U+0917: "ग" DEVANAGARI LETTER GA
+            /* keylabel_to_alpha */ "\u11D0C\u11D0D\u11D0E",
+            /* morekeys_i ~ */
+            null, null, null, null, null, null,
+            /* ~ single_quotes */
+            // U+20B9: "₹" INDIAN RUPEE SIGN
+            /* keyspec_currency */ "\u20B9",
+            /* morekeys_y ~ */
+            null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+            null, null, null, null, null,
+            /* ~ morekeys_cyrillic_soft_sign */
+            // U+0967: "१" DEVANAGARI DIGIT ONE
+            /* keyspec_symbols_1 */ "\u0967",
+            // U+0968: "२" DEVANAGARI DIGIT TWO
+            /* keyspec_symbols_2 */ "\u0968",
+            // U+0969: "३" DEVANAGARI DIGIT THREE
+            /* keyspec_symbols_3 */ "\u0969",
+            // U+096A: "४" DEVANAGARI DIGIT FOUR
+            /* keyspec_symbols_4 */ "\u096A",
+            // U+096B: "५" DEVANAGARI DIGIT FIVE
+            /* keyspec_symbols_5 */ "\u096B",
+            // U+096C: "६" DEVANAGARI DIGIT SIX
+            /* keyspec_symbols_6 */ "\u096C",
+            // U+096D: "७" DEVANAGARI DIGIT SEVEN
+            /* keyspec_symbols_7 */ "\u096D",
+            // U+096E: "८" DEVANAGARI DIGIT EIGHT
+            /* keyspec_symbols_8 */ "\u096E",
+            // U+096F: "९" DEVANAGARI DIGIT NINE
+            /* keyspec_symbols_9 */ "\u096F",
+            // U+0966: "०" DEVANAGARI DIGIT ZERO
+            /* keyspec_symbols_0 */ "\u0966",
+            // Label for "switch to symbols" key.
+            /* keylabel_to_symbol */ "?\u0967\u0968\u0969",
+            /* additional_morekeys_symbols_1 */ "1",
+            /* additional_morekeys_symbols_2 */ "2",
+            /* additional_morekeys_symbols_3 */ "3",
+            /* additional_morekeys_symbols_4 */ "4",
+            /* additional_morekeys_symbols_5 */ "5",
+            /* additional_morekeys_symbols_6 */ "6",
+            /* additional_morekeys_symbols_7 */ "7",
+            /* additional_morekeys_symbols_8 */ "8",
+            /* additional_morekeys_symbols_9 */ "9",
+            /* additional_morekeys_symbols_0 */ "0",
+            /* morekeys_tablet_period */ "!autoColumnOrder!8,\\,,.,',#,),(,/,;,@,:,-,\",+,\\%,&",
+            /* morekeys_nordic_row2_11 ~ */
+            null, null, null,
+            /* ~ keyspec_tablet_comma */
+            // U+0964: "।" DEVANAGARI DANDA
+            /* keyspec_period */ "\u0964",
+            /* morekeys_period */ "!autoColumnOrder!9,\\,,.,?,!,#,),(,/,;,',@,:,-,\",+,\\%,&",
+            /* keyspec_tablet_period */ "\u0964",
+    };
+
     /* Locale hi_ZZ: Hindi (ZZ) */
     private static final String[] TEXTS_hi_ZZ = {
         /* morekeys_a ~ */
@@ -621,6 +741,8 @@ public final class KeyboardTextsTable {
         "hi"     , TEXTS_hi,    /*  27/ 60 Hindi */
         "hi_ZZ"  , TEXTS_hi_ZZ, /*   9/118 Hindi (ZZ) */
         "takri_IN"  , TEXTS_Takri_IN, /*   2/ 12 Takri (India) */
+        "gondi_MASARAM"  , TEXTS_Gondi_Masaram_IN, /*   2/ 12 Masaram Gondi (India) */
+        "gondi_GUNJALA"  , TEXTS_Gondi_Gunjala_IN, /*   2/ 12 Gunjala Gondi (India) */
     };
 
     static {
