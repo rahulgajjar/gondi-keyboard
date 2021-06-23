@@ -15,7 +15,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="rkr.simplekeyboard.inputmethod">
+    package="design.gajjar.gondikeyboard">
 
     <uses-permission android:name="android.permission.VIBRATE" />
 

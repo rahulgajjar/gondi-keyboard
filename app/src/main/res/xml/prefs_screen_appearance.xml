@@ -20,17 +20,17 @@
     android:key="screen_appearance"
     android:title="@string/settings_screen_appearance">
     <PreferenceScreen
-        android:fragment="rkr.simplekeyboard.inputmethod.latin.settings.ThemeSettingsFragment"
+        android:fragment="design.gajjar.gondikeyboard.latin.settings.ThemeSettingsFragment"
         android:key="screen_theme"
         android:title="@string/settings_screen_theme" />
-    <rkr.simplekeyboard.inputmethod.latin.settings.ColorDialogPreference
+    <design.gajjar.gondikeyboard.latin.settings.ColorDialogPreference
         android:key="pref_keyboard_color"
         android:title="@string/keyboard_color" />
     <CheckBoxPreference
         android:key="pref_matching_navbar_color"
         android:title="@string/matching_navbar_color"
         android:defaultValue="false" />
-    <rkr.simplekeyboard.inputmethod.latin.settings.SeekBarDialogPreference
+    <design.gajjar.gondikeyboard.latin.settings.SeekBarDialogPreference
         android:key="pref_keyboard_height"
         android:title="@string/prefs_keyboard_height_settings"
         latin:minValue="@integer/config_min_keyboar_height"
