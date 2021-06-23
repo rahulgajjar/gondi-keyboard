@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="vibrate_on_keypress">"යතුර එබීමට කම්පනය කිරීම සක්‍රියයි"</string>
+    <string name="sound_on_keypress">"යතුරු එබිම මත හඬ"</string>
+    <string name="popup_on_keypress">"යතුරු එබීම මත උත්පතනය"</string>
+    <string name="settings_screen_preferences">"අභිරුචි"</string>
+    <string name="settings_screen_theme">"තේමාව"</string>
+    <string name="abbreviation_unit_milliseconds">"<xliff:g id="MILLISECONDS">%s</xliff:g>ms"</string>
+    <string name="settings_system_default">"පද්ධති සුපුරුදු"</string>
+    <string name="auto_cap">"ස්වයං-ලොකු අකුරු කරණය"</string>
+    <string name="auto_cap_summary">"එක් එක් වාක්‍යයේ පළමු වචනය ලොකු අකුරු කරන්න"</string>
+    <string name="select_language">"භාෂා"</string>
+    <string name="locale_name_en_GB">"ඉංග්‍රීසි (UK)"</string>
+    <string name="locale_name_en_US">"ඉංග්‍රීසි (US)"</string>
+    <string name="locale_name_es_US">"ස්පාඤ්ඤ (US)"</string>
+    <string name="locale_name_hi_ZZ">"හින්ග්ලිෂ්"</string>
+    <string name="locale_name_sr_ZZ">"සර්බියානු (ලතින්)"</string>
+    <string name="subtype_generic_layout">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (<xliff:g id="LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_traditional">"සාම්ප්‍රදායික"</string>
+    <string name="subtype_compact">"සංයුක්ත"</string>
+    <string name="add">"එක් කරන්න"</string>
+    <string name="prefs_keypress_vibration_duration_settings">"යතුරු එබිම් කම්පන කාලපරිච්ඡේදය"</string>
+    <string name="prefs_keypress_sound_volume_settings">"යතුරු එබීම් හඬ තීව්‍රතාවය"</string>
+    <string name="prefs_key_longpress_timeout_settings">"යතුරු දිගු එබීම් ප්‍රමාදය"</string>
+    <string name="button_default">"සුපුරුදු"</string>
+    <string name="prefs_keyboard_height_settings">කීබෝඩයේ උස</string>
+    <string name="keyboard_color">කැමති පාටක් යොදන්න</string>
+    <string name="hide_special_chars">විශේශ අක්ශර සඟවන්න</string>
+    <string name="hide_language_switch_key">භාෂාව මාරුකරන යතුර සඟවන්න</string>
+    <string name="show_number_row">වෙනමම අංක පේලියක් පෙන්වන්න</string>
+</resources>
